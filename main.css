@@ -1,0 +1,101 @@
+body{
+    background-color: #212121;
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica'; 
+    margin: 0px;/* Dit lettertype wordt via een link geladen onderaan het css bestand */
+}
+
+#quiz, #results, p, h1{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#submit{
+    all: unset;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: #0a0a0a;
+}
+
+select{
+    font-family: inherit;
+    margin-top: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid #121212;
+}
+
+ul{ /* Dit heeft met de Navbar te maken, uitleg gevolgd van W3 schools.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0a0a0a;
+  }
+
+.question{
+	text-decoration: underline;
+}
+.answers {
+    margin-bottom: 20px;
+}
+
+.active{
+    /* background-color: #04AA6D; */
+    background-color: #c70909;
+}
+
+.title{
+    text-align: center;
+    font-size: 48px;
+    margin: 20px;
+}
+
+@font-face{
+    font-family: 'Helvetica';
+    font-style:normal;
+    font-weight:400;
+    src:local("Helvetica"),url("https://mikeysaur.github.io/bearsona/Helvetica.woff") format('woff') /* Deze link leidt naar mijn github, waar ik dit lettertype hebt geupload*/
+}
