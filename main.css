@@ -60,16 +60,14 @@ ul{ /* Dit heeft met de Navbar te maken, uitleg gevolgd van W3 schools.*/
 }
 
 li{
-    float: none;
-    text-align: left;
+    float: left;
 }
 
 .alignRight{
-    float: none;
-    text-align: right;
+    float: right;
 }
 
-.alignRight{
+.alignCenter{
     float: none;
     text-align: center;
 }
