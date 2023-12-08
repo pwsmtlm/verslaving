@@ -64,7 +64,8 @@ li{
 }
 
 .alignRight{
-    float: right;
+    float: none;
+    text-align: right;
 }
 
 .alignCenter{
