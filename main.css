@@ -67,6 +67,11 @@ li{
     float: right;
 }
 
+.alignRight{
+    float: none;
+    text-align: center;
+}
+
 li a{
     display: block;
     color: white;
