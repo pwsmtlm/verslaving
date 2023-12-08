@@ -69,6 +69,8 @@ li{
 }
 
 .alignCenter{
+    margin-left: 50%;
+    margin-right: 50%;
     display: inline-block;
     text-align: center;
 }
