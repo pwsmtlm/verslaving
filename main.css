@@ -64,11 +64,12 @@ li{
 }
 
 .alignRight{
-    float: none;
-    text-align: right;
+    display: inline-block;
+    float: right;
 }
 
 .alignCenter{
+    display: inline-block;
     float: none;
     text-align: center;
 }
