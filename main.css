@@ -52,6 +52,7 @@ img{
 }
 
 ul{ /* Dit heeft met de Navbar te maken, uitleg gevolgd van W3 schools.*/
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,9 +69,10 @@ li{
     float: right;
 }
 
-.alignCenter{
-    display: inline-block;
+.alignCenter {
+    text-align: center;
     margin: auto;
+    display: flex;
 }
 
 li a{
