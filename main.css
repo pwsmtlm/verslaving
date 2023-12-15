@@ -107,7 +107,7 @@ li a:hover {
 
 .sitelink{
     text-decoration: underline;
-    color: #c70909;
+    color: red;
 }
 
 @font-face{
