@@ -105,6 +105,11 @@ li a:hover {
     margin: 20px;
 }
 
+.sitelink{
+    text-decoration: underline;
+    color: #c70909;
+}
+
 @font-face{
     font-family: 'Helvetica';
     font-style:normal;
