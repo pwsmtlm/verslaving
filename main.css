@@ -116,3 +116,27 @@ li a:hover {
     font-weight:400;
     src:local("Helvetica"),url("https://mikeysaur.github.io/bearsona/Helvetica.woff") format('woff') /* Deze link leidt naar mijn github, waar ik dit lettertype hebt geupload*/
 }
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8B0000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
