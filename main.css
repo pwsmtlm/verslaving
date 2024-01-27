@@ -124,7 +124,7 @@ a:link {
 }
 
 a:visited {
-  color: #8B0000;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
