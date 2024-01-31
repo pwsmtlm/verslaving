@@ -140,3 +140,27 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+th,td,tr {
+    border-color:transparent;
+    background-color:none;
+    border:0px solid;
+    padding:0px;
+    padding-right:0px;
+    padding-left: 12px;
+    center-align;
+  }
+  
+  
+  
+  #celA {border-color:#212121;
+    color:none;
+    background-color:none;
+    padding-right:0px;
+    width: 60%;
+  }
+
+  .ov{ width: 20%; background-color:transparent;}
+
+  p{padding-left:12px}
