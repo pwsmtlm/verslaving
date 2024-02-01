@@ -75,6 +75,11 @@ li{
     display: flex;
 }
 
+.alignLeft {
+    text-align: left;
+    float: left;
+}
+
 li a{
     display: inline-block;
     color: white;
