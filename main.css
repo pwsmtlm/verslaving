@@ -9,6 +9,7 @@ body{
 #quiz, #results, p, h1{
     margin-left: 20%;
     margin-right: 20%;
+    /* Dit was eerst 8px */
 }
 
 #submit{
